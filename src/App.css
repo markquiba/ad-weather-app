@@ -1,0 +1,60 @@
+.card {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.10);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.city {
+  margin: 15px 0;
+  padding: 15px;
+  font-size: 17px;
+  color:#333;
+  transition: all .3s ease;
+}
+
+.city:hover {
+  color: rgb(255, 123, 0);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.20);
+}
+
+.weather {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.weather .weather-state-name {
+  font-weight: bolder;
+  padding-top: 4px;
+  color: #00697d;
+}
+
+.weather .weather-date {
+  color: #333;
+  padding-top: 10px;
+  font-size: 13px
+}
+
+.weather .weather-temparature {
+  color: #c88c32;
+  font-weight: bold;
+  padding-top: 13px;
+}
+
+.weather .weather-templabel {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.back-button {
+  position: relative;
+  top: 45px;
+  color: #000;
+  font-size: 12px;
+}
+
+.loader {
+  margin: 50px 0;
+  text-align: center;
+}
